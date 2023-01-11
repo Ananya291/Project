@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <h1 id="p1">Any text</h1>
+    <button onclick="changeText()">Change text</button>
+
+    <script>
+      function changeText() {
+        // This method returns the element that contains the name id passed.
+        // As we know, id’s should be unique, so it’s a very helpful method to get only the element you want.
+        var pTag = document.getElementById("p1");
+        pTag.innerText = "Hello prachi";
+      }
+    </script>
+  </body>
+</html>

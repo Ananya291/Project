@@ -1,0 +1,13 @@
+.properties{
+    display: flex;
+}
+
+.pro_text{
+    color: blue;
+    font-size: x-large;
+}
+
+.image{
+    height: 50px;
+    width: 50px;
+}
